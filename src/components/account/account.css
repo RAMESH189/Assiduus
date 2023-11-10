@@ -1,0 +1,83 @@
+.Account {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 600px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.AccountWrapper {
+  padding: 10px;
+}
+
+.AccountTop {
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.accountTopleft{
+  margin-bottom: 20px;
+  flex:1;
+}
+.headingAccount {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+ 
+}
+
+.accountTopRight{
+  flex: 1;
+  display: flex;  
+  justify-content: center;
+}
+
+.topDropdowns{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ 
+
+.dropdownOne{
+  position: relative;
+}
+
+.dropdown1{
+  margin-right: 7px;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown1:focus {
+  outline: none;
+}
+
+.dropdownTwo{
+  position: relative;
+}
+
+.dropdow2{
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdow2:focus {
+  outline: none;
+}
+
+.AccountCenter {
+  margin: 20px 0;
+}
+
+/* graph css */

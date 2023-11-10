@@ -1,0 +1,75 @@
+.invoice {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 600px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.invoiceWrapper {
+  padding: 10px;
+}
+
+.invoiceTop {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.invoiceTopLeft {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.headingInvoice {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.invoiceTopRight {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.invoiceButton {
+  color: rgb(109, 184, 109);
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  height: 35px;
+  cursor: pointer;
+}
+.modalWrapper{
+  padding: 10px;
+}
+.invoiceModal{
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: rgb(208, 214, 221)  ;
+  border-radius: 3px;
+}
+
+.modalInput{
+  border-radius: 2px;
+}
+
+.modalClose{
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: rgb(215, 58, 58);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+/* .InvoiceCenter{
+  
+} */

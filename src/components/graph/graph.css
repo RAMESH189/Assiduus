@@ -1,0 +1,19 @@
+.graph{
+   display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(243, 242, 242);
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    z-index: 0;
+    padding: 10px;
+    
+}
+
+.graphWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    
+}
