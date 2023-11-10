@@ -1,9 +1,7 @@
-
 import StackedBarChart from "./StackedBar";
 import "./tcf.css";
 
 export default function Tcf({ data }) {
-  
   return (
     <div className="tcf">
       <div className="tcfWrapper">

@@ -1,21 +1,19 @@
 /* Table.css */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    /* border: 1px solid #ddd; */
-    border: none;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 1px solid #ddd; */
+  border: none;
 }
 
 th,
 td {
-    padding: 8px;
-    text-align: left;
-    /* border: 1px solid #ddd; */
-    border: none;
+  padding: 8px;
+  text-align: left;
+  /* border: 1px solid #ddd; */
+  border: none;
 }
 
-
-
 tr:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }

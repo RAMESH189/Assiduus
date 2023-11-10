@@ -1,11 +1,9 @@
-import React, {useState} from 'react'
-import TopBar from '../../components/topbar/TopBar'
-import Graph from '../../components/graph/Graph'
+import React, { useState } from "react";
+import TopBar from "../../components/topbar/TopBar";
+import Graph from "../../components/graph/Graph";
 import * as d3 from "d3";
 
-
 export default function Home() {
-
   const [randomData, setRandomData] = useState([]);
 
   const generateRandomData = () => {
@@ -18,5 +16,5 @@ export default function Home() {
       <TopBar randomise={generateRandomData} />
       <Graph data={randomData} />
     </>
-  )
+  );
 }

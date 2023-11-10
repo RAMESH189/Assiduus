@@ -1,27 +1,27 @@
 .watchlist {
-    margin-left: 30px;
-    width: 600px;
-    height: 320px;
-    border-radius: 10px;
-    background-color: white;
+  margin-left: 30px;
+  width: 600px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .watchlistWrapper {
-    padding: 10px;
+  padding: 10px;
 }
-.watchlistTop{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.watchlistTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headingWatchList {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.watchlistCenter{
-    margin: 20px 0;
+.watchlistCenter {
+  margin: 20px 0;
 }

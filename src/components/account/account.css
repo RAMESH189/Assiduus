@@ -13,39 +13,37 @@
 
 .AccountTop {
   display: flex;
-  
+
   justify-content: space-between;
 }
 
-.accountTopleft{
+.accountTopleft {
   margin-bottom: 20px;
-  flex:1;
+  flex: 1;
 }
 .headingAccount {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
- 
 }
 
-.accountTopRight{
+.accountTopRight {
   flex: 1;
-  display: flex;  
+  display: flex;
   justify-content: center;
 }
 
-.topDropdowns{
+.topDropdowns {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
- 
 
-.dropdownOne{
+.dropdownOne {
   position: relative;
 }
 
-.dropdown1{
+.dropdown1 {
   margin-right: 7px;
   height: 30px;
   width: 90px;
@@ -59,11 +57,11 @@
   outline: none;
 }
 
-.dropdownTwo{
+.dropdownTwo {
   position: relative;
 }
 
-.dropdow2{
+.dropdow2 {
   height: 30px;
   width: 90px;
   border-radius: 5px;

@@ -71,22 +71,22 @@ export default function SideNav() {
           </Menu>
 
           <Menu style={{ marginTop: "20px" }}>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<Dashboard />}>Dashboard</MenuItem>
             </Link>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<AccountBalanceWallet />}>Accounts </MenuItem>
             </Link>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<AttachMoney />}>Payroll</MenuItem>
             </Link>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<Description />}>Reports</MenuItem>
             </Link>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<Person />}>Advisor</MenuItem>
             </Link>
-            <Link to="/" style={{textDecoration:"none", color:'black'}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <MenuItem icon={<Contacts />}>Contacts</MenuItem>
             </Link>
           </Menu>

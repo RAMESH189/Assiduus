@@ -5,7 +5,6 @@ import WatchList from "../watchlist/WatchList";
 import Tcf from "../tcf/Tcf";
 
 export default function Graph({ data }) {
-
   return (
     <div className="graph">
       <div className="graphWrapper">

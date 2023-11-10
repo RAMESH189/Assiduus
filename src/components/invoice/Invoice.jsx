@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from "react-modal";
 import BarChart from "./BarChart";
 
-export default function Invoice({data}) {
+export default function Invoice({ data }) {
   const [isOpen, setIsOpen] = useState(false);
   const handlePopUp = () => {
     setIsOpen(true);

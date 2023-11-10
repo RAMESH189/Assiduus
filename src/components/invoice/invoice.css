@@ -42,25 +42,25 @@
   height: 35px;
   cursor: pointer;
 }
-.modalWrapper{
+.modalWrapper {
   padding: 10px;
 }
-.invoiceModal{
+.invoiceModal {
   top: 50%;
   left: 50%;
   width: 400px;
   height: 150px;
   transform: translate(-50%, -50%);
   position: fixed;
-  background-color: rgb(208, 214, 221)  ;
+  background-color: rgb(208, 214, 221);
   border-radius: 3px;
 }
 
-.modalInput{
+.modalInput {
   border-radius: 2px;
 }
 
-.modalClose{
+.modalClose {
   height: 30px;
   width: 90px;
   border-radius: 5px;
@@ -70,6 +70,6 @@
   border: none;
 }
 
-.InvoiceCenter{
+.InvoiceCenter {
   margin: 20px 0;
 }

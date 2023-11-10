@@ -1,7 +1,7 @@
-import React from 'react'
-import './charttable.css'
+import React from "react";
+import "./charttable.css";
 
-export default function ChartTable({tableData}) {
+export default function ChartTable({ tableData }) {
   return (
     <table>
       <thead>
@@ -15,27 +15,27 @@ export default function ChartTable({tableData}) {
         <tr>
           <td>Sales</td>
           <td>{tableData[0] || `-`}</td>
-          <td>{tableData[1]*12 || `-`}</td>
+          <td>{tableData[1] * 12 || `-`}</td>
         </tr>
         <tr>
           <td>Advertising</td>
           <td>{tableData[1] || `-`}</td>
-          <td>{tableData[2]*9 || `-`}</td>
+          <td>{tableData[2] * 9 || `-`}</td>
         </tr>
         <tr>
           <td>Inventory</td>
           <td>{tableData[2] || `-`}</td>
-          <td>{tableData[3]*8 || `-`}</td>
-              </tr>
-              <tr>
+          <td>{tableData[3] * 8 || `-`}</td>
+        </tr>
+        <tr>
           <td>Entertainment</td>
           <td>{tableData[3] || `-`}</td>
-          <td>{tableData[4]*10 || `-`}</td>
-              </tr>
-              <tr>
+          <td>{tableData[4] * 10 || `-`}</td>
+        </tr>
+        <tr>
           <td>Product</td>
           <td>{tableData[4] || `-`}</td>
-          <td>{tableData[5]*15 || `-`}</td>
+          <td>{tableData[5] * 15 || `-`}</td>
         </tr>
       </tbody>
     </table>

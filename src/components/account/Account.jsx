@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import "./account.css";
 import LineChart from "./LineChart";
 
-export default function Account({randomData}) {
-
-
+export default function Account({ randomData }) {
   const [data, setData] = useState([]);
   const [month, setMonth] = useState([]);
 
- const manageDataHandler = (event) => {
+  const manageDataHandler = (event) => {
     setData(event.target.value);
   };
 
@@ -33,13 +31,12 @@ export default function Account({randomData}) {
                   className="dropdown1"
                 >
                   <option>manage</option>
-                 <option>1000</option>
-                 <option>2000</option>
-                 <option>3000</option>
-                 <option>4000</option>
-                 <option>5000</option>
-                 <option>6000</option>
-               
+                  <option>1000</option>
+                  <option>2000</option>
+                  <option>3000</option>
+                  <option>4000</option>
+                  <option>5000</option>
+                  <option>6000</option>
                 </select>
               </div>
               <div className="dropdownTwo">
@@ -49,19 +46,19 @@ export default function Account({randomData}) {
                   id="month"
                   className="dropdow2"
                 >
-                 <option>months</option>
-                 <option>January</option>
-                 <option>February</option>
-                 <option>March</option>
-                 <option>April</option>
-                 <option>May</option>
-                 <option>June</option>
-                 <option>July</option>
-                 <option>August</option>
-                 <option>September</option>
-                 <option>October</option>
-                 <option>November</option>
-                 <option>December</option>
+                  <option>months</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
                 </select>
               </div>
             </div>
