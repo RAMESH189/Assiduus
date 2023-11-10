@@ -17,7 +17,7 @@ const StackedBarChart = ({randomData}) => {
   const drawChart = () => {
     const margin = { top: 20, right: 30, bottom: 30, left: 40 };
     const width = 570 - margin.left - margin.right;
-    const height = 250 - margin.top - margin.bottom;
+    const height = 240 - margin.top - margin.bottom;
 
     const svg = d3
       .select(chartRef.current)

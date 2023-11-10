@@ -70,6 +70,6 @@
   border: none;
 }
 
-/* .InvoiceCenter{
-  
-} */
+.InvoiceCenter{
+  margin: 20px 0;
+}

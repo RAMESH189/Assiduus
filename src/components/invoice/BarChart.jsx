@@ -8,7 +8,7 @@ function BarChart({ data }) {
 
     d3.select(svgRef.current).selectAll("*").remove();
     // svg container
-    const height = 210; 
+    const height = 200; 
     const width = 560;
     const svg = d3.select(svgRef.current)
       .attr('width', width)
